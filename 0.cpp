@@ -68,4 +68,6 @@ int main(int argc, char* argv[]) {
   JSON json;
   std::string data = "{\"foo\":\"bar\",\"baz\":[1,2,3]}";
   if (json.parse(data)) {
-    std::cout << "Successfully parsed JSON data." << std::endl
+    std::cout << "Successfully parsed JSON data." << std::endl;
+  }
+}
